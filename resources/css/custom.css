@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Custom CSS below My Code */
+:root {
+    --main-color: #039e8c;
+    --dark-gray: #424242;
+    --white:var(#ffffff);
+
+    --bs-primary: #039e8c;
+  --bs-secondary: #000000;
+  --bs-success: #28a745;
+  --bs-danger: #dc3545;
+  --bs-warning: #ffc107;
+  --bs-info: #17a2b8;
+  --bs-light: #f8f9fa;
+  --bs-dark: #000000;
+}
+
+.main-color-back {
+    background-color: var(--main-color);
+
+
+}
+
+.dark-gray-back {
+
+    background-color: var(--dark-gray);
+
+}
+
+.white-back {
+
+    background-color: var(--bs-secondary);
+
+}
+
+.search-bar-above {
+
+    z-index: 10;
+}
+
+.text-color{
+    color: var(--white);
+}
+
+.login-bt {
+    background-color: black;
+    border: 1px solid var(--main-color);
+    color: white;
+}
+
+.logo {
+    height: 100px;
+    width: 80px;
+}
+
+@media (min-width: 768px) {
+    .logo {
+        height: 70px;
+    }
+}
+
+
+.reg-logo {
+    height: 40px;
+    width: auto;
+}
